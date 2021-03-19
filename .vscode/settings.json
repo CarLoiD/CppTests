@@ -4,6 +4,9 @@
         "array": "cpp",
         "string": "cpp",
         "string_view": "cpp",
-        "ranges": "cpp"
-    }
+        "ranges": "cpp",
+        "*.tcc": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

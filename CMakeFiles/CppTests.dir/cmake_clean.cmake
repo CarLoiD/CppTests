@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o"
   "CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o"
   "CMakeFiles/CppTests.dir/Source/Main.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o"
   "CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
   "CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o"
   "CppTests"

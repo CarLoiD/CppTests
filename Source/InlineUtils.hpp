@@ -1,7 +1,10 @@
 #ifndef INLINE_UTILS_HPP
 #define INLINE_UTILS_HPP
 
+#include "Types.hpp"
+
 #include <iostream>
+#include <fstream>
 #include <string>
 
 inline void ClearConsole()
@@ -22,7 +25,6 @@ inline void HoldNextInput()
 inline void LogError(const std::string& message)
 {
     std::cout << '\n';
-    ClearConsole();
 
     const std::string logTxt = "\033[1;31m" + message + "\033[0m\n";
     std::cout << logTxt;
@@ -36,7 +38,7 @@ inline void Assert(const bool expression, const std::string& message)
     }
 }
 
-inline void DwordToColor(const uint32_t dword, float& r, float& g, float& b, float& a)
+inline void DwordToColor(const uint32 dword, float& r, float& g, float& b, float& a)
 {
     r = (float)((dword & 0xFF000000) >> 24);
     g = (float)((dword & 0x00FF0000) >> 16);
@@ -44,7 +46,7 @@ inline void DwordToColor(const uint32_t dword, float& r, float& g, float& b, flo
     a = (float)((dword & 0x000000FF));
 }
 
-inline void DwordToColorNormalized(const uint32_t dword, float& r, float& g, float& b, float& a)
+inline void DwordToColorNormalized(const uint32 dword, float& r, float& g, float& b, float& a)
 {
     DwordToColor(dword, r, g, b, a);
     r /= 255.0f;
@@ -53,9 +55,19 @@ inline void DwordToColorNormalized(const uint32_t dword, float& r, float& g, flo
     a /= 255.0f;
 }
 
-inline void ColorToDword(const uint32_t r, const uint32_t g, const uint32_t b, const uint32_t a, uint32_t& dword)
+inline void ColorToDword(const uint32 r, const uint32 g, const uint32 b, const uint32 a, uint32& dword)
 {
     dword = (r << 24) | (g << 16) | (b << 8) | (a);
+}
+
+inline uint64 GetFileSize(std::ifstream& file)
+{
+    file.seekg(0, std::ios::end);
+    
+    const uint64 size = (uint64) file.tellg();
+    file.seekg(0, std::ios::beg);
+
+    return size;
 }
 
 #endif // INLINE_UTILS_HPP

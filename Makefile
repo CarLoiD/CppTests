@@ -251,6 +251,33 @@ Source/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Main.cpp.s
 .PHONY : Source/Main.cpp.s
 
+Source/OpenGL/Shader.o: Source/OpenGL/Shader.cpp.o
+
+.PHONY : Source/OpenGL/Shader.o
+
+# target to build an object file
+Source/OpenGL/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o
+.PHONY : Source/OpenGL/Shader.cpp.o
+
+Source/OpenGL/Shader.i: Source/OpenGL/Shader.cpp.i
+
+.PHONY : Source/OpenGL/Shader.i
+
+# target to preprocess a source file
+Source/OpenGL/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.i
+.PHONY : Source/OpenGL/Shader.cpp.i
+
+Source/OpenGL/Shader.s: Source/OpenGL/Shader.cpp.s
+
+.PHONY : Source/OpenGL/Shader.s
+
+# target to generate assembly for a file
+Source/OpenGL/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s
+.PHONY : Source/OpenGL/Shader.cpp.s
+
 Source/X11GLWindow.o: Source/X11GLWindow.cpp.o
 
 .PHONY : Source/X11GLWindow.o
@@ -326,6 +353,9 @@ help:
 	@echo "... Source/Main.o"
 	@echo "... Source/Main.i"
 	@echo "... Source/Main.s"
+	@echo "... Source/OpenGL/Shader.o"
+	@echo "... Source/OpenGL/Shader.i"
+	@echo "... Source/OpenGL/Shader.s"
 	@echo "... Source/X11GLWindow.o"
 	@echo "... Source/X11GLWindow.i"
 	@echo "... Source/X11GLWindow.s"

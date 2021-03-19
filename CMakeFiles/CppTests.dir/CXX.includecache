@@ -6,27 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/carloid/Documents/CppProjects/CppTests/Source/Application.h
+/home/carloid/Documents/CppProjects/CppTests/Source/Application.hpp
 
-/home/carloid/Documents/CppProjects/CppTests/Source/InlineUtils.h
+/home/carloid/Documents/CppProjects/CppTests/Source/InlineUtils.hpp
+Types.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/Types.hpp
 iostream
+-
+fstream
 -
 string
 -
 
-/home/carloid/Documents/CppProjects/CppTests/Source/Types.h
+/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.hpp
+../Types.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/Types.hpp
+
+/home/carloid/Documents/CppProjects/CppTests/Source/Types.hpp
 cstdint
 -
 
-/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp
-X11GLWindow.h
-/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.h
-
-/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.h
-Types.h
-/home/carloid/Documents/CppProjects/CppTests/Source/Types.h
-InlineUtils.h
-/home/carloid/Documents/CppProjects/CppTests/Source/InlineUtils.h
+/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.hpp
+Types.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/Types.hpp
+InlineUtils.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/InlineUtils.hpp
 X11/Xlib.h
 -
 epoxy/gl.h
@@ -35,16 +39,18 @@ epoxy/glx.h
 -
 
 /home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.cpp
-X11OpenGLWindowApp.h
-/home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.h
-Types.h
-/home/carloid/Documents/CppProjects/CppTests/Source/Types.h
-InlineUtils.h
-/home/carloid/Documents/CppProjects/CppTests/Source/InlineUtils.h
-X11GLWindow.h
-/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.h
+X11OpenGLWindowApp.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.hpp
+Types.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/Types.hpp
+InlineUtils.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/InlineUtils.hpp
+X11GLWindow.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.hpp
+OpenGL/Shader.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.hpp
 
-/home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.h
-Application.h
-/home/carloid/Documents/CppProjects/CppTests/Source/Application.h
+/home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.hpp
+Application.hpp
+/home/carloid/Documents/CppProjects/CppTests/Source/Application.hpp
 

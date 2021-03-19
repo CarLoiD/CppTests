@@ -1,0 +1,3 @@
+/home/carloid/Documents/CppProjects/CppTests/build/CMakeFiles/rebuild_cache.dir
+/home/carloid/Documents/CppProjects/CppTests/build/CMakeFiles/edit_cache.dir
+/home/carloid/Documents/CppProjects/CppTests/build/CMakeFiles/CppTests.dir
