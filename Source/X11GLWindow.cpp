@@ -5,12 +5,12 @@ cld::X11GLWindow::X11GLWindow(const uint32 width, const uint32 height, const cha
     , X11Screen(nullptr)
 {
     X11Display = XOpenDisplay(nullptr);
-	Assert(X11Display != nullptr, "ERROR: Failed to open X11 display!");
+    Assert(X11Display != nullptr, "ERROR: Failed to open X11 display!");
 
-	X11Screen = DefaultScreenOfDisplay(X11Display);
-	const int32 screenId = DefaultScreen(X11Display);
+    X11Screen = DefaultScreenOfDisplay(X11Display);
+    const int32 screenId = DefaultScreen(X11Display);
 
-	X11Window = XCreateSimpleWindow(X11Display, RootWindowOfScreen(X11Screen), 0, 0, width, height, 1,
+    X11Window = XCreateSimpleWindow(X11Display, RootWindowOfScreen(X11Screen), 0, 0, width, height, 1,
                                     BlackPixel(X11Display, screenId), WhitePixel(X11Display, screenId));
 
     // Set the window title caption
@@ -42,8 +42,8 @@ cld::X11GLWindow::~X11GLWindow()
     glXDestroyContext(X11Display, Context);
 
     XDestroyWindow(X11Display, X11Window);
-	XFree(X11Screen);
-	XCloseDisplay(X11Display);
+    XFree(X11Screen);
+    XCloseDisplay(X11Display);
 }
 
 void cld::X11GLWindow::ProcessEvents()
