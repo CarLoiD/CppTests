@@ -1,2 +1,2 @@
 # CppTests
-A small collection of useful modern C++(11+) samples meant for Linux
+A small collection of useful C++14 compliant samples meant for Linux
