@@ -1,7 +1,7 @@
 #ifndef HELLO_WORLD_APP_HPP
 #define HELLO_WORLD_APP_HPP
 
-#include "Application.hpp"
+#include "../Application.hpp"
 
 namespace cld
 {

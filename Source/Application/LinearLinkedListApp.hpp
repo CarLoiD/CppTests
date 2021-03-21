@@ -1,7 +1,7 @@
 #ifndef LINEAR_LINKED_LIST_APP_HPP
 #define LINEAR_LINKED_LIST_APP_HPP
 
-#include "Application.hpp"
+#include "../Application.hpp"
 
 namespace cld
 {

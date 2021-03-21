@@ -143,86 +143,140 @@ CppTests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/build
 .PHONY : CppTests/fast
 
-Source/Gtk3WindowApp.o: Source/Gtk3WindowApp.cpp.o
+Source/Application/Gtk3WindowApp.o: Source/Application/Gtk3WindowApp.cpp.o
 
-.PHONY : Source/Gtk3WindowApp.o
-
-# target to build an object file
-Source/Gtk3WindowApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o
-.PHONY : Source/Gtk3WindowApp.cpp.o
-
-Source/Gtk3WindowApp.i: Source/Gtk3WindowApp.cpp.i
-
-.PHONY : Source/Gtk3WindowApp.i
-
-# target to preprocess a source file
-Source/Gtk3WindowApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.i
-.PHONY : Source/Gtk3WindowApp.cpp.i
-
-Source/Gtk3WindowApp.s: Source/Gtk3WindowApp.cpp.s
-
-.PHONY : Source/Gtk3WindowApp.s
-
-# target to generate assembly for a file
-Source/Gtk3WindowApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.s
-.PHONY : Source/Gtk3WindowApp.cpp.s
-
-Source/HelloWorldApp.o: Source/HelloWorldApp.cpp.o
-
-.PHONY : Source/HelloWorldApp.o
+.PHONY : Source/Application/Gtk3WindowApp.o
 
 # target to build an object file
-Source/HelloWorldApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o
-.PHONY : Source/HelloWorldApp.cpp.o
+Source/Application/Gtk3WindowApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o
+.PHONY : Source/Application/Gtk3WindowApp.cpp.o
 
-Source/HelloWorldApp.i: Source/HelloWorldApp.cpp.i
+Source/Application/Gtk3WindowApp.i: Source/Application/Gtk3WindowApp.cpp.i
 
-.PHONY : Source/HelloWorldApp.i
+.PHONY : Source/Application/Gtk3WindowApp.i
 
 # target to preprocess a source file
-Source/HelloWorldApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.i
-.PHONY : Source/HelloWorldApp.cpp.i
+Source/Application/Gtk3WindowApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.i
+.PHONY : Source/Application/Gtk3WindowApp.cpp.i
 
-Source/HelloWorldApp.s: Source/HelloWorldApp.cpp.s
+Source/Application/Gtk3WindowApp.s: Source/Application/Gtk3WindowApp.cpp.s
 
-.PHONY : Source/HelloWorldApp.s
+.PHONY : Source/Application/Gtk3WindowApp.s
 
 # target to generate assembly for a file
-Source/HelloWorldApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.s
-.PHONY : Source/HelloWorldApp.cpp.s
+Source/Application/Gtk3WindowApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.s
+.PHONY : Source/Application/Gtk3WindowApp.cpp.s
 
-Source/LinearLinkedListApp.o: Source/LinearLinkedListApp.cpp.o
+Source/Application/HelloWorldApp.o: Source/Application/HelloWorldApp.cpp.o
 
-.PHONY : Source/LinearLinkedListApp.o
+.PHONY : Source/Application/HelloWorldApp.o
 
 # target to build an object file
-Source/LinearLinkedListApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o
-.PHONY : Source/LinearLinkedListApp.cpp.o
+Source/Application/HelloWorldApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o
+.PHONY : Source/Application/HelloWorldApp.cpp.o
 
-Source/LinearLinkedListApp.i: Source/LinearLinkedListApp.cpp.i
+Source/Application/HelloWorldApp.i: Source/Application/HelloWorldApp.cpp.i
 
-.PHONY : Source/LinearLinkedListApp.i
+.PHONY : Source/Application/HelloWorldApp.i
 
 # target to preprocess a source file
-Source/LinearLinkedListApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.i
-.PHONY : Source/LinearLinkedListApp.cpp.i
+Source/Application/HelloWorldApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.i
+.PHONY : Source/Application/HelloWorldApp.cpp.i
 
-Source/LinearLinkedListApp.s: Source/LinearLinkedListApp.cpp.s
+Source/Application/HelloWorldApp.s: Source/Application/HelloWorldApp.cpp.s
 
-.PHONY : Source/LinearLinkedListApp.s
+.PHONY : Source/Application/HelloWorldApp.s
 
 # target to generate assembly for a file
-Source/LinearLinkedListApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.s
-.PHONY : Source/LinearLinkedListApp.cpp.s
+Source/Application/HelloWorldApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.s
+.PHONY : Source/Application/HelloWorldApp.cpp.s
+
+Source/Application/LinearLinkedListApp.o: Source/Application/LinearLinkedListApp.cpp.o
+
+.PHONY : Source/Application/LinearLinkedListApp.o
+
+# target to build an object file
+Source/Application/LinearLinkedListApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o
+.PHONY : Source/Application/LinearLinkedListApp.cpp.o
+
+Source/Application/LinearLinkedListApp.i: Source/Application/LinearLinkedListApp.cpp.i
+
+.PHONY : Source/Application/LinearLinkedListApp.i
+
+# target to preprocess a source file
+Source/Application/LinearLinkedListApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.i
+.PHONY : Source/Application/LinearLinkedListApp.cpp.i
+
+Source/Application/LinearLinkedListApp.s: Source/Application/LinearLinkedListApp.cpp.s
+
+.PHONY : Source/Application/LinearLinkedListApp.s
+
+# target to generate assembly for a file
+Source/Application/LinearLinkedListApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.s
+.PHONY : Source/Application/LinearLinkedListApp.cpp.s
+
+Source/Application/ThreadAsyncTaskApp.o: Source/Application/ThreadAsyncTaskApp.cpp.o
+
+.PHONY : Source/Application/ThreadAsyncTaskApp.o
+
+# target to build an object file
+Source/Application/ThreadAsyncTaskApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o
+.PHONY : Source/Application/ThreadAsyncTaskApp.cpp.o
+
+Source/Application/ThreadAsyncTaskApp.i: Source/Application/ThreadAsyncTaskApp.cpp.i
+
+.PHONY : Source/Application/ThreadAsyncTaskApp.i
+
+# target to preprocess a source file
+Source/Application/ThreadAsyncTaskApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.i
+.PHONY : Source/Application/ThreadAsyncTaskApp.cpp.i
+
+Source/Application/ThreadAsyncTaskApp.s: Source/Application/ThreadAsyncTaskApp.cpp.s
+
+.PHONY : Source/Application/ThreadAsyncTaskApp.s
+
+# target to generate assembly for a file
+Source/Application/ThreadAsyncTaskApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.s
+.PHONY : Source/Application/ThreadAsyncTaskApp.cpp.s
+
+Source/Application/X11OpenGLWindowApp.o: Source/Application/X11OpenGLWindowApp.cpp.o
+
+.PHONY : Source/Application/X11OpenGLWindowApp.o
+
+# target to build an object file
+Source/Application/X11OpenGLWindowApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o
+.PHONY : Source/Application/X11OpenGLWindowApp.cpp.o
+
+Source/Application/X11OpenGLWindowApp.i: Source/Application/X11OpenGLWindowApp.cpp.i
+
+.PHONY : Source/Application/X11OpenGLWindowApp.i
+
+# target to preprocess a source file
+Source/Application/X11OpenGLWindowApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.i
+.PHONY : Source/Application/X11OpenGLWindowApp.cpp.i
+
+Source/Application/X11OpenGLWindowApp.s: Source/Application/X11OpenGLWindowApp.cpp.s
+
+.PHONY : Source/Application/X11OpenGLWindowApp.s
+
+# target to generate assembly for a file
+Source/Application/X11OpenGLWindowApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.s
+.PHONY : Source/Application/X11OpenGLWindowApp.cpp.s
 
 Source/Main.o: Source/Main.cpp.o
 
@@ -305,33 +359,6 @@ Source/X11GLWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s
 .PHONY : Source/X11GLWindow.cpp.s
 
-Source/X11OpenGLWindowApp.o: Source/X11OpenGLWindowApp.cpp.o
-
-.PHONY : Source/X11OpenGLWindowApp.o
-
-# target to build an object file
-Source/X11OpenGLWindowApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o
-.PHONY : Source/X11OpenGLWindowApp.cpp.o
-
-Source/X11OpenGLWindowApp.i: Source/X11OpenGLWindowApp.cpp.i
-
-.PHONY : Source/X11OpenGLWindowApp.i
-
-# target to preprocess a source file
-Source/X11OpenGLWindowApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.i
-.PHONY : Source/X11OpenGLWindowApp.cpp.i
-
-Source/X11OpenGLWindowApp.s: Source/X11OpenGLWindowApp.cpp.s
-
-.PHONY : Source/X11OpenGLWindowApp.s
-
-# target to generate assembly for a file
-Source/X11OpenGLWindowApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.s
-.PHONY : Source/X11OpenGLWindowApp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -341,15 +368,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppTests"
-	@echo "... Source/Gtk3WindowApp.o"
-	@echo "... Source/Gtk3WindowApp.i"
-	@echo "... Source/Gtk3WindowApp.s"
-	@echo "... Source/HelloWorldApp.o"
-	@echo "... Source/HelloWorldApp.i"
-	@echo "... Source/HelloWorldApp.s"
-	@echo "... Source/LinearLinkedListApp.o"
-	@echo "... Source/LinearLinkedListApp.i"
-	@echo "... Source/LinearLinkedListApp.s"
+	@echo "... Source/Application/Gtk3WindowApp.o"
+	@echo "... Source/Application/Gtk3WindowApp.i"
+	@echo "... Source/Application/Gtk3WindowApp.s"
+	@echo "... Source/Application/HelloWorldApp.o"
+	@echo "... Source/Application/HelloWorldApp.i"
+	@echo "... Source/Application/HelloWorldApp.s"
+	@echo "... Source/Application/LinearLinkedListApp.o"
+	@echo "... Source/Application/LinearLinkedListApp.i"
+	@echo "... Source/Application/LinearLinkedListApp.s"
+	@echo "... Source/Application/ThreadAsyncTaskApp.o"
+	@echo "... Source/Application/ThreadAsyncTaskApp.i"
+	@echo "... Source/Application/ThreadAsyncTaskApp.s"
+	@echo "... Source/Application/X11OpenGLWindowApp.o"
+	@echo "... Source/Application/X11OpenGLWindowApp.i"
+	@echo "... Source/Application/X11OpenGLWindowApp.s"
 	@echo "... Source/Main.o"
 	@echo "... Source/Main.i"
 	@echo "... Source/Main.s"
@@ -359,9 +392,6 @@ help:
 	@echo "... Source/X11GLWindow.o"
 	@echo "... Source/X11GLWindow.i"
 	@echo "... Source/X11GLWindow.s"
-	@echo "... Source/X11OpenGLWindowApp.o"
-	@echo "... Source/X11OpenGLWindowApp.i"
-	@echo "... Source/X11OpenGLWindowApp.s"
 .PHONY : help
 
 

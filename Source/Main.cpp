@@ -1,10 +1,11 @@
-#include "HelloWorldApp.hpp"
-#include "LinearLinkedListApp.hpp"
-#include "Gtk3WindowApp.hpp"
-#include "X11OpenGLWindowApp.hpp"
-
 #include "Types.hpp"
 #include "InlineUtils.hpp"
+
+#include "Application/HelloWorldApp.hpp"
+#include "Application/LinearLinkedListApp.hpp"
+#include "Application/ThreadAsyncTaskApp.hpp"
+#include "Application/Gtk3WindowApp.hpp"
+#include "Application/X11OpenGLWindowApp.hpp"
 
 #include <memory>
 
@@ -14,10 +15,11 @@ namespace cld
     {
         HelloWorld,
         LinearLinkedList,
+        ThreadAsyncTask,
         Gtk3Window,
         X11OpenGLWindow,
         Quit
-    }; const uint16 opIdLenght = (uint16)OperationId::Quit - (uint16)OperationId::HelloWorld;
+    }; const uint16 operationIdLenght = (uint16)OperationId::Quit - (uint16)OperationId::HelloWorld;
 }
 
 void PrintInstructions();
@@ -38,6 +40,11 @@ int main(int argc, char* argv[])
         // Linear Linked List Application
         case cld::OperationId::LinearLinkedList:
             app = std::make_unique<cld::LinearLinkedListApp>();
+        break;
+
+        // Thread Async Task Application
+        case cld::OperationId::ThreadAsyncTask:
+            app = std::make_unique<cld::ThreadAsyncTaskApp>();
         break;
 
         // Gtkmm3 Window Application
@@ -72,9 +79,10 @@ void PrintInstructions()
 
     std::cout << "0) Hello World\n";
     std::cout << "1) Linear Linked List\n";
-    std::cout << "2) Gtk3 GUI Window\n";
-    std::cout << "3) X11 Modern OpenGL Window\n";
-    std::cout << "4) Quit\n\n";
+    std::cout << "2) Thread Async Task\n";
+    std::cout << "3) Gtk3 GUI Window\n";
+    std::cout << "4) X11 Modern OpenGL Window\n";
+    std::cout << "5) Quit\n\n";
 
     std::cout << "Option: ";
 }
@@ -83,7 +91,7 @@ cld::OperationId GetOperationId()
 {
     int16 option = -1;
 
-    while (option < 0 || option > cld::opIdLenght) 
+    while (option < 0 || option > cld::operationIdLenght) 
     {
         PrintInstructions();
         std::cin >> option;

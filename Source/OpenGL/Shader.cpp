@@ -12,10 +12,9 @@ inline void LogShaderCompileError(const uint32 shaderId)
     if (errorStrLenght)
     {
         char* buffer = new char[errorStrLenght];
-        glGetShaderInfoLog(shaderId, errorStrLenght, nullptr, buffer);
 
-        LogError("ERROR: Shader compilation failed!");
-        LogError(std::string(buffer));
+        glGetShaderInfoLog(shaderId, errorStrLenght, nullptr, buffer);
+        LogError(std::string("ERROR: Shader compilation failed!\n") + buffer);
 
         delete[] buffer;
     }

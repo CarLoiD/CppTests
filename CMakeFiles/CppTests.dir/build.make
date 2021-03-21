@@ -76,48 +76,74 @@ include CMakeFiles/CppTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppTests.dir/flags.make
 
-CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
-CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o: Source/Gtk3WindowApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Gtk3WindowApp.cpp
+CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
+CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o: Source/Application/Gtk3WindowApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Application/Gtk3WindowApp.cpp
 
-CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/Gtk3WindowApp.cpp > CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.i
+CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/Application/Gtk3WindowApp.cpp > CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.i
 
-CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/Gtk3WindowApp.cpp -o CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.s
+CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/Application/Gtk3WindowApp.cpp -o CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.s
 
-CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
-CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o: Source/HelloWorldApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/HelloWorldApp.cpp
+CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
+CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o: Source/Application/HelloWorldApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Application/HelloWorldApp.cpp
 
-CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/HelloWorldApp.cpp > CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.i
+CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/Application/HelloWorldApp.cpp > CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.i
 
-CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/HelloWorldApp.cpp -o CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.s
+CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/Application/HelloWorldApp.cpp -o CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.s
 
-CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
-CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o: Source/LinearLinkedListApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/LinearLinkedListApp.cpp
+CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
+CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o: Source/Application/LinearLinkedListApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Application/LinearLinkedListApp.cpp
 
-CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/LinearLinkedListApp.cpp > CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.i
+CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/Application/LinearLinkedListApp.cpp > CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.i
 
-CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/LinearLinkedListApp.cpp -o CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.s
+CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/Application/LinearLinkedListApp.cpp -o CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.s
+
+CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
+CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o: Source/Application/ThreadAsyncTaskApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Application/ThreadAsyncTaskApp.cpp
+
+CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/Application/ThreadAsyncTaskApp.cpp > CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.i
+
+CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/Application/ThreadAsyncTaskApp.cpp -o CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.s
+
+CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
+CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/Application/X11OpenGLWindowApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Application/X11OpenGLWindowApp.cpp
+
+CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/Application/X11OpenGLWindowApp.cpp > CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.i
+
+CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/Application/X11OpenGLWindowApp.cpp -o CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.s
 
 CMakeFiles/CppTests.dir/Source/Main.cpp.o: CMakeFiles/CppTests.dir/flags.make
 CMakeFiles/CppTests.dir/Source/Main.cpp.o: Source/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppTests.dir/Source/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppTests.dir/Source/Main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/Main.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/Main.cpp
 
 CMakeFiles/CppTests.dir/Source/Main.cpp.i: cmake_force
@@ -130,7 +156,7 @@ CMakeFiles/CppTests.dir/Source/Main.cpp.s: cmake_force
 
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: CMakeFiles/CppTests.dir/flags.make
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/OpenGL/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.cpp
 
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.i: cmake_force
@@ -143,7 +169,7 @@ CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s: cmake_force
 
 CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: CMakeFiles/CppTests.dir/flags.make
 CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: Source/X11GLWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp
 
 CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.i: cmake_force
@@ -154,42 +180,31 @@ CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp -o CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s
 
-CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o: CMakeFiles/CppTests.dir/flags.make
-CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o: Source/X11OpenGLWindowApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.cpp
-
-CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.cpp > CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.i
-
-CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.cpp -o CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.s
-
 # Object files for target CppTests
 CppTests_OBJECTS = \
-"CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o" \
-"CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o" \
-"CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o" \
+"CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o" \
+"CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o" \
+"CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o" \
+"CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o" \
+"CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o" \
 "CMakeFiles/CppTests.dir/Source/Main.cpp.o" \
 "CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o" \
-"CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o" \
-"CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o"
+"CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
 
 # External object files for target CppTests
 CppTests_EXTERNAL_OBJECTS =
 
-CppTests: CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o
-CppTests: CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o
-CppTests: CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o
+CppTests: CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o
+CppTests: CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o
+CppTests: CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o
+CppTests: CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o
+CppTests: CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o
 CppTests: CMakeFiles/CppTests.dir/Source/Main.cpp.o
 CppTests: CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o
 CppTests: CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o
-CppTests: CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o
 CppTests: CMakeFiles/CppTests.dir/build.make
 CppTests: CMakeFiles/CppTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CppTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CppTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

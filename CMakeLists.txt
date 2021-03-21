@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD 14)              # C++14
 set(CMAKE_CXX_STANDARD_REQUIRED True)   # Required
 
 # Source
-file(GLOB ProjectSources CONFIGURE_DEPENDS "Source/*.hpp" "Source/*.cpp" "Source/OpenGL/*.hpp" "Source/OpenGL/*.cpp")
+file(GLOB ProjectSources CONFIGURE_DEPENDS "Source/*.hpp" "Source/*.cpp" "Source/OpenGL/*.hpp" "Source/OpenGL/*.cpp" "Source/Application/*.hpp" "Source/Application/*.cpp")
 add_executable(${PROJECT_NAME} ${ProjectSources})
 
 # Libs

@@ -1,7 +1,7 @@
 #ifndef X11_OPENGL_WINDOW_APP_HPP
 #define X11_OPENGL_WINDOW_APP_HPP
 
-#include "Application.hpp"
+#include "../Application.hpp"
 
 namespace cld
 {

@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/carloid/Documents/CppProjects/CppTests/Source/Gtk3WindowApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o"
-  "/home/carloid/Documents/CppProjects/CppTests/Source/HelloWorldApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o"
-  "/home/carloid/Documents/CppProjects/CppTests/Source/LinearLinkedListApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/Application/Gtk3WindowApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/Application/HelloWorldApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/Application/LinearLinkedListApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/Application/ThreadAsyncTaskApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/Application/X11OpenGLWindowApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o"
   "/home/carloid/Documents/CppProjects/CppTests/Source/Main.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/Main.cpp.o"
   "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o"
   "/home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
-  "/home/carloid/Documents/CppProjects/CppTests/Source/X11OpenGLWindowApp.cpp" "/home/carloid/Documents/CppProjects/CppTests/CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

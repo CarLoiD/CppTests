@@ -97,10 +97,8 @@ namespace cld
     template <typename Type>
     void LinearLinkedList<Type>::PrintAll(const char separator) const
     {
-        if (Lenght < 1) {
-            std::cout << '\n';
-            return;
-        }
+        // Skip if the list is empty
+        if (Lenght < 1) return;
 
         Node* current = HeadPtr;
 
@@ -110,7 +108,7 @@ namespace cld
         }
 
         // Print the last one
-        std::cout << current->Data << '\n';
+        std::cout << current->Data;
     }
 
     template <typename Type>

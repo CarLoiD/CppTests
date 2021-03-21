@@ -1,10 +1,10 @@
 #include "X11OpenGLWindowApp.hpp"
 
-#include "Types.hpp"
-#include "InlineUtils.hpp"
-#include "X11GLWindow.hpp"
+#include "../Types.hpp"
+#include "../InlineUtils.hpp"
+#include "../X11GLWindow.hpp"
 
-#include "OpenGL/Shader.hpp"
+#include "../OpenGL/Shader.hpp"
 
 constexpr const uint32 g_width  = 1280;
 constexpr const uint32 g_height = 720;
@@ -29,4 +29,6 @@ void cld::X11OpenGLWindowApp::Execute(int argc, char* argv[])
         window.Clear(0x2D2D2DFF);
         window.SwapBuffers();
     }
+
+    ClearConsole();
 }

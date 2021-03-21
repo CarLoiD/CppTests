@@ -1,11 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o"
-  "CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o"
-  "CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o"
   "CMakeFiles/CppTests.dir/Source/Main.cpp.o"
   "CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o"
   "CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
-  "CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o"
   "CppTests"
   "CppTests.pdb"
 )
