@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o"
   "CMakeFiles/CppTests.dir/Source/Main.cpp.o"
   "CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o"
-  "CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
+  "CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o"
   "CppTests"
   "CppTests.pdb"
 )

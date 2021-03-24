@@ -6,7 +6,7 @@
 
 void cld::LinearLinkedListApp::Execute(int argc, char* argv[])
 {
-    ClearConsole();
+    cld::ClearConsole();
     std::cout << "-- Linear Linked List --\n\n";
 
     cld::LinearLinkedList<uint32> list;
@@ -37,6 +37,6 @@ void cld::LinearLinkedListApp::Execute(int argc, char* argv[])
     list.Clear();
     std::cout << "Actual list: [ "; list.PrintAll(' '); std::cout << " ]\n";
 
-    HoldNextInput();
-    ClearConsole();
+    cld::HoldNextInput();
+    cld::ClearConsole();
 }

@@ -1,8 +1,8 @@
 #ifndef X11_GL_WINDOW_HPP
 #define X11_GL_WINDOW_HPP
 
-#include "Types.hpp"
-#include "InlineUtils.hpp"
+#include "../Types.hpp"
+#include "../InlineUtils.hpp"
 
 #include <X11/Xlib.h>
 
@@ -24,12 +24,12 @@ namespace cld
         void SwapBuffers();
 
     private:
-        Display* X11Display;
-        Screen* X11Screen;
-        Window X11Window;
-        XEvent EventHandler;
+        Display* mDisplay;
+        Screen* mScreen;
+        Window mWindow;
+        XEvent mEventHandler;
 
-        GLXContext Context;
+        GLXContext mContext;
     };
 }
 

@@ -32,8 +32,8 @@ CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/Appl
 CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/Application/X11OpenGLWindowApp.hpp
 CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/InlineUtils.hpp
 CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/OpenGL/Shader.hpp
+CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/OpenGL/X11GLWindow.hpp
 CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/Types.hpp
-CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o: Source/X11GLWindow.hpp
 
 CMakeFiles/CppTests.dir/Source/Main.cpp.o: Source/Application.hpp
 CMakeFiles/CppTests.dir/Source/Main.cpp.o: Source/Application/Gtk3WindowApp.hpp
@@ -50,8 +50,8 @@ CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/OpenGL/Shader.cpp
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/OpenGL/Shader.hpp
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/Types.hpp
 
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: Source/InlineUtils.hpp
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: Source/Types.hpp
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: Source/X11GLWindow.cpp
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: Source/X11GLWindow.hpp
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/InlineUtils.hpp
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/OpenGL/X11GLWindow.cpp
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/OpenGL/X11GLWindow.hpp
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/Types.hpp
 

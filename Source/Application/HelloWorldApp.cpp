@@ -7,6 +7,6 @@ void cld::HelloWorldApp::Execute(int argc, char* argv[])
 {
     std::cout << "Hello World from CppTests!\n";
     
-    HoldNextInput();
-    ClearConsole();
+    cld::HoldNextInput();
+    cld::ClearConsole();
 }

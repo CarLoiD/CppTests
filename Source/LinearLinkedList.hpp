@@ -6,35 +6,35 @@
 
 namespace cld
 {
-    template <typename Type>
+    template <typename T>
     class LinearLinkedList final
     {
     private:
         struct Node 
         {
-            Type Data;
+            T Data;
             Node* Next;
         };
         
     public:
-        LinearLinkedList();
+        LinearLinkedList() = default;
         LinearLinkedList(const uint32 size);
-        LinearLinkedList(const uint32 size, const Type& data);
+        LinearLinkedList(const uint32 size, const T& data);
 
         ~LinearLinkedList();
 
-        void Insert(const Type& data);
+        void Insert(const T& data);
         void Delete(const uint32 index);
         void PrintAll(const char separator) const;
-        void Set(const uint32 index, const Type& data);
+        void Set(const uint32 index, const T& data);
         void Clear();
         uint32 Size() const;
 
-        const Type& operator[](const uint32 index);
+        const T& operator[](const uint32 index);
 
     private:
-        Node* HeadPtr;
-        uint32 Lenght;
+        Node* mHeadPtr;
+        uint32 mLenght;
     };
 }
 

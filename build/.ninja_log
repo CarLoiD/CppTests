@@ -1,6 +1,6 @@
 # ninja log v5
 4	2131	1616139266507786000	CMakeFiles/CppTests.dir/Source/Gtk3WindowApp.cpp.o	7c520dc0c703fe8e
-9	38	1616283521281745523	build.ninja	9d06d47fc1f34cb4
+9	38	1616512583437908604	build.ninja	9d06d47fc1f34cb4
 2131	2387	1616139266762788902	CppTests	65c675900d2422ab
 5	690	1616139265067769612	CMakeFiles/CppTests.dir/Source/Main.cpp.o	3d9c3e9680473d6b
 6	588	1616139264965768451	CMakeFiles/CppTests.dir/Source/X11OpenGLWindowApp.cpp.o	761b17436ab87475
@@ -8,4 +8,15 @@
 5	614	1616139264991768747	CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o	23669f57f20efcc2
 5	447	1616139264824766847	CMakeFiles/CppTests.dir/Source/HelloWorldApp.cpp.o	3a2239598f4cad17
 5	491	1616139264868767348	CMakeFiles/CppTests.dir/Source/LinearLinkedListApp.cpp.o	9844f195270514f7
-0	7	0	/home/carloid/Documents/CppProjects/CppTests/build/CMakeFiles/cmake.verify_globs	56eb23c2ca77995a
+0	12	1616512583320907011	/home/carloid/Documents/CppProjects/CppTests/build/CMakeFiles/cmake.verify_globs	56eb23c2ca77995a
+12	192	1616512583437908604	build.ninja	9d06d47fc1f34cb4
+0	12	0	/home/carloid/Documents/CppProjects/CppTests/build/CMakeFiles/cmake.verify_globs	56eb23c2ca77995a
+0	574	1616512584085917427	CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o	f030852ea36d55cc
+2	708	1616512584220919265	CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o	ff9a8977d6196f0d
+9	729	1616512584240919537	CMakeFiles/CppTests.dir/Source/Application/HelloWorldApp.cpp.o	c2a607564dfbed8
+15	852	1616512584364921226	CMakeFiles/CppTests.dir/Source/Application/LinearLinkedListApp.cpp.o	3115c8d37766e6ec
+1	854	1616512584365921240	CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o	4e8c0b456c2c9c6a
+1	995	1616512584506923159	CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o	571e3f0d08a6066b
+1	1046	1616512584557923854	CMakeFiles/CppTests.dir/Source/Main.cpp.o	3d9c3e9680473d6b
+7	2934	1616512586445949561	CMakeFiles/CppTests.dir/Source/Application/Gtk3WindowApp.cpp.o	498cbb682e17a619
+2942	3144	1616512586655952420	CppTests	523d477cda00d639

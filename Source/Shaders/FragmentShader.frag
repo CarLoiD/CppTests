@@ -1,9 +1,11 @@
-#version 330
+#version 330 core
+
 precision mediump float;
 
-varying vec4 v_Color;
+in vec4 v_Color;
+out vec4 fragColor;
 
 void main()
 {
-    gl_FragColor = v_Color;
+    fragColor = v_Color;
 }

@@ -1,53 +1,47 @@
 
 namespace cld
 {
-    template <typename Type>
-    LinearLinkedList<Type>::LinearLinkedList()
-        : HeadPtr(nullptr)
-        , Lenght(0)
-    {}
-
-    template <typename Type>
-    LinearLinkedList<Type>::LinearLinkedList(const uint32 size)
-        : HeadPtr(nullptr)
-        , Lenght(size)
+    template <typename T>
+    LinearLinkedList<T>::LinearLinkedList(const uint32 size)
+        : mHeadPtr(nullptr)
+        , mLenght(size)
     {
-        for (uint32 index = 0; index < Lenght; ++index) {
-            Insert((Type)0);
+        for (uint32 index = 0; index < mLenght; ++index) {
+            Insert(static_cast<T>(0));
         }
     }
 
-    template <typename Type>
-    LinearLinkedList<Type>::LinearLinkedList(const uint32 size, const Type& data)
-        : HeadPtr(nullptr)
-        , Lenght(size)
+    template <typename T>
+    LinearLinkedList<T>::LinearLinkedList(const uint32 size, const T& data)
+        : mHeadPtr(nullptr)
+        , mLenght(size)
     {
-        for (uint32 index = 0; index < Lenght; ++index) {
+        for (uint32 index = 0; index < mLenght; ++index) {
             Insert(data);
         }
     }
 
-    template <typename Type>
-    LinearLinkedList<Type>::~LinearLinkedList()
+    template <typename T>
+    LinearLinkedList<T>::~LinearLinkedList()
     {
         Clear();
     }
 
-    template <typename Type>
-    void LinearLinkedList<Type>::Insert(const Type& data)
+    template <typename T>
+    void LinearLinkedList<T>::Insert(const T& data)
     {
-        if (Lenght == 0) 
+        if (mLenght == 0) 
         {
-            HeadPtr = new Node();
-            HeadPtr->Data = data;
-            HeadPtr->Next = nullptr;
+            mHeadPtr = new Node();
+            mHeadPtr->Data = data;
+            mHeadPtr->Next = nullptr;
 
-            ++Lenght;
+            ++mLenght;
             return;
         }
 
         // Iterate to the last element
-        Node* last = HeadPtr;
+        Node* last = mHeadPtr;
         while (last->Next != nullptr) {
             last = last->Next;
         }
@@ -57,25 +51,25 @@ namespace cld
         newLast->Next = nullptr;
 
         last->Next = newLast;
-        ++Lenght;
+        ++mLenght;
     }
 
-    template <typename Type>
-    void LinearLinkedList<Type>::Delete(const uint32 index)
+    template <typename T>
+    void LinearLinkedList<T>::Delete(const uint32 index)
     {
-        Assert(index >= 0 && index < Lenght, "ERROR: List index out of bounds!");
+        Assert(index >= 0 && index < mLenght, "ERROR: List index out of bounds!");
 
-        Node* tmpHead = HeadPtr;
+        Node* tmpHead = mHeadPtr;
 
         if (index == 0) 
         {
-            if (Lenght > 1) {
-                HeadPtr = HeadPtr->Next;
+            if (mLenght > 1) {
+                mHeadPtr = mHeadPtr->Next;
                 tmpHead->Next = nullptr;
             }
 
             delete tmpHead;
-            --Lenght;
+            --mLenght;
 
             return;
         }
@@ -89,18 +83,18 @@ namespace cld
         Node* nextAfterDeleted = tmpHead->Next->Next;
         
         delete tmpHead->Next; // Delete the one in the "middle"
-        --Lenght;
+        --mLenght;
 
         tmpHead->Next = nextAfterDeleted;
     }
     
-    template <typename Type>
-    void LinearLinkedList<Type>::PrintAll(const char separator) const
+    template <typename T>
+    void LinearLinkedList<T>::PrintAll(const char separator) const
     {
         // Skip if the list is empty
-        if (Lenght < 1) return;
+        if (mLenght < 1) return;
 
-        Node* current = HeadPtr;
+        Node* current = mHeadPtr;
 
         while (current->Next != nullptr) {
             std::cout << current->Data << separator;
@@ -111,12 +105,12 @@ namespace cld
         std::cout << current->Data;
     }
 
-    template <typename Type>
-    void LinearLinkedList<Type>::Set(const uint32 index, const Type& data)
+    template <typename T>
+    void LinearLinkedList<T>::Set(const uint32 index, const T& data)
     {
-        Assert(index >= 0 && index < Lenght, "ERROR: List index out of bounds!");
+        Assert(index >= 0 && index < mLenght, "ERROR: List index out of bounds!");
 
-        Node* current = HeadPtr;
+        Node* current = mHeadPtr;
         uint32 iterator = 0;
 
         while (iterator < index) {
@@ -127,12 +121,12 @@ namespace cld
         current->Data = data;
     }
 
-    template <typename Type>
-    void LinearLinkedList<Type>::Clear()
+    template <typename T>
+    void LinearLinkedList<T>::Clear()
     {
-        if (Lenght < 1) return;
+        if (mLenght < 1) return;
 
-        Node* current = HeadPtr;
+        Node* current = mHeadPtr;
         Node* next = nullptr;
 
         while (current != nullptr) 
@@ -143,22 +137,22 @@ namespace cld
             current = next;
         }
 
-        HeadPtr = nullptr;
-        Lenght = 0;
+        mHeadPtr = nullptr;
+        mLenght = 0;
     }
 
-    template <typename Type>
-    uint32 LinearLinkedList<Type>::Size() const
+    template <typename T>
+    uint32 LinearLinkedList<T>::Size() const
     {
-        return Lenght;
+        return mLenght;
     }
 
-    template <typename Type>
-    const Type& LinearLinkedList<Type>::operator[](const uint32 index)
+    template <typename T>
+    const T& LinearLinkedList<T>::operator[](const uint32 index)
     {
-        Assert(index >= 0 && index < Lenght, "ERROR: List index out of bounds!");
+        Assert(index >= 0 && index < mLenght, "ERROR: List index out of bounds!");
 
-        Node* current = HeadPtr;
+        Node* current = mHeadPtr;
         uint32 iterator = 0;
 
         while (iterator < index) {

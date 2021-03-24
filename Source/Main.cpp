@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
 
 void PrintInstructions()
 {
-    ClearConsole();
+    cld::ClearConsole();
 
     std::cout << "##################################\n";
     std::cout << "#           CPP-TESTS            #\n";
@@ -97,6 +97,6 @@ cld::OperationId GetOperationId()
         std::cin >> option;
     }
 
-    ClearConsole();
+    cld::ClearConsole();
     return (cld::OperationId) option;
 }

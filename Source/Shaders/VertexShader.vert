@@ -1,14 +1,16 @@
-#version 330
+#version 330 core
 
-attribute vec4 Position;
-attribute vec4 Color;
+layout(location = 0) in vec4 Position;
+layout(location = 1) in vec4 Color;
 
-varying vec4 v_Color;
+out vec4 v_Color;
 
-uniform mat4 ModelViewProj;
+uniform mat4 Model;
+uniform mat4 View;
+uniform mat4 Projection;
 
 void main()
 {
-    gl_Position = Position * ModelViewProj;
+    gl_Position = Position * (Model * View * Projection);
     v_Color = Color;
 }

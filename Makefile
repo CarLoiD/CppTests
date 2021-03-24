@@ -332,32 +332,32 @@ Source/OpenGL/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s
 .PHONY : Source/OpenGL/Shader.cpp.s
 
-Source/X11GLWindow.o: Source/X11GLWindow.cpp.o
+Source/OpenGL/X11GLWindow.o: Source/OpenGL/X11GLWindow.cpp.o
 
-.PHONY : Source/X11GLWindow.o
+.PHONY : Source/OpenGL/X11GLWindow.o
 
 # target to build an object file
-Source/X11GLWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o
-.PHONY : Source/X11GLWindow.cpp.o
+Source/OpenGL/X11GLWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o
+.PHONY : Source/OpenGL/X11GLWindow.cpp.o
 
-Source/X11GLWindow.i: Source/X11GLWindow.cpp.i
+Source/OpenGL/X11GLWindow.i: Source/OpenGL/X11GLWindow.cpp.i
 
-.PHONY : Source/X11GLWindow.i
+.PHONY : Source/OpenGL/X11GLWindow.i
 
 # target to preprocess a source file
-Source/X11GLWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.i
-.PHONY : Source/X11GLWindow.cpp.i
+Source/OpenGL/X11GLWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.i
+.PHONY : Source/OpenGL/X11GLWindow.cpp.i
 
-Source/X11GLWindow.s: Source/X11GLWindow.cpp.s
+Source/OpenGL/X11GLWindow.s: Source/OpenGL/X11GLWindow.cpp.s
 
-.PHONY : Source/X11GLWindow.s
+.PHONY : Source/OpenGL/X11GLWindow.s
 
 # target to generate assembly for a file
-Source/X11GLWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s
-.PHONY : Source/X11GLWindow.cpp.s
+Source/OpenGL/X11GLWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.s
+.PHONY : Source/OpenGL/X11GLWindow.cpp.s
 
 # Help Target
 help:
@@ -389,9 +389,9 @@ help:
 	@echo "... Source/OpenGL/Shader.o"
 	@echo "... Source/OpenGL/Shader.i"
 	@echo "... Source/OpenGL/Shader.s"
-	@echo "... Source/X11GLWindow.o"
-	@echo "... Source/X11GLWindow.i"
-	@echo "... Source/X11GLWindow.s"
+	@echo "... Source/OpenGL/X11GLWindow.o"
+	@echo "... Source/OpenGL/X11GLWindow.i"
+	@echo "... Source/OpenGL/X11GLWindow.s"
 .PHONY : help
 
 

@@ -17,10 +17,10 @@ namespace cld
         void Unbind();
 
     private:
-        uint32 ShaderProgram;
+        uint32 mShaderProgram;
 
-        uint32 VertexShaderId;
-        uint32 FragmentShaderId;
+        uint32 mVertexShaderId;
+        uint32 mFragmentShaderId;
     };
 }
 

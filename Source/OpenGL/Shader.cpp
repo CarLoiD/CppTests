@@ -14,7 +14,7 @@ inline void LogShaderCompileError(const uint32 shaderId)
         char* buffer = new char[errorStrLenght];
 
         glGetShaderInfoLog(shaderId, errorStrLenght, nullptr, buffer);
-        LogError(std::string("ERROR: Shader compilation failed!\n") + buffer);
+        cld::LogError(std::string("ERROR: Shader compilation failed!\n") + buffer);
 
         delete[] buffer;
     }
@@ -34,21 +34,20 @@ inline void CompileShaderInternal(const uint32 shaderId, const char* shaderCode)
 }
 
 cld::Shader::Shader()
+    : mShaderProgram(glCreateProgram())
 {
-    ShaderProgram = glCreateProgram();
-
-    VertexShaderId   = glCreateShader(GL_VERTEX_SHADER);
-    FragmentShaderId = glCreateShader(GL_FRAGMENT_SHADER);
+    mVertexShaderId   = glCreateShader(GL_VERTEX_SHADER);
+    mFragmentShaderId = glCreateShader(GL_FRAGMENT_SHADER);
 }
 
 cld::Shader::~Shader()
 {
     Unbind();
 
-    glDeleteShader(FragmentShaderId);
-    glDeleteShader(VertexShaderId);
+    glDeleteShader(mFragmentShaderId);
+    glDeleteShader(mVertexShaderId);
 
-    glDeleteProgram(ShaderProgram);
+    glDeleteProgram(mShaderProgram);
 }
 
 void cld::Shader::CompileShaderFromFile(const char* vertPath, const char* fragPath)
@@ -56,16 +55,22 @@ void cld::Shader::CompileShaderFromFile(const char* vertPath, const char* fragPa
     std::ifstream vertFile(vertPath);
     std::ifstream fragFile(fragPath);
     
-    Assert(vertFile.is_open(), "ERROR: Failed to open the vertex shader file!");
-    const uint64 vertStrLenght = GetFileSize(vertFile);
+    cld::Assert(vertFile.is_open(), "ERROR: Failed to open the vertex shader file!");
+    const uint64 vertStrLenght = cld::GetFileSize(vertFile);
 
-    Assert(fragFile.is_open(), "ERROR: Failed to open the fragment shader file!");
-    const uint64 fragStrLenght = GetFileSize(fragFile);
+    cld::Assert(fragFile.is_open(), "ERROR: Failed to open the fragment shader file!");
+    const uint64 fragStrLenght = cld::GetFileSize(fragFile);
+
+    // Check file size
+    cld::Assert(vertStrLenght > 0 && fragStrLenght > 0, "ERROR: Found empty shader file being pointed");
 
     char* vertCode = new char[vertStrLenght];
     char* fragCode = new char[fragStrLenght];
 
-    // Read the whole chunk of shader code
+    // Copy from the file stream buffer to the char buffer
+    // In this case a core C/C++ implementation is faster than modern C++
+    // Ex: Creating a std::ostringstream and passing the rdbuf etc
+    // As it deals with less memory reallocation. Simple, directly and fast.
     vertFile.read(vertCode, vertStrLenght);
     fragFile.read(fragCode, fragStrLenght);
 
@@ -77,20 +82,20 @@ void cld::Shader::CompileShaderFromFile(const char* vertPath, const char* fragPa
 
 void cld::Shader::CompileShaderFromCode(const char* vertCode, const char* fragCode)
 {
-    Assert(VertexShaderId && FragmentShaderId, "ERROR: Invalid vertex/fragment shader id!");
+    cld::Assert(mVertexShaderId && mFragmentShaderId, "ERROR: Invalid vertex/fragment shader id!");
 
-    CompileShaderInternal(VertexShaderId, vertCode);
-    CompileShaderInternal(FragmentShaderId, fragCode);
+    CompileShaderInternal(mVertexShaderId, vertCode);
+    CompileShaderInternal(mFragmentShaderId, fragCode);
 
-    glAttachShader(ShaderProgram, VertexShaderId);
-    glAttachShader(ShaderProgram, FragmentShaderId);
+    glAttachShader(mShaderProgram, mVertexShaderId);
+    glAttachShader(mShaderProgram, mFragmentShaderId);
 
-    glLinkProgram(ShaderProgram);
+    glLinkProgram(mShaderProgram);
 }
 
 void cld::Shader::Bind()
 {
-    glUseProgram(ShaderProgram);
+    glUseProgram(mShaderProgram);
 }
 
 void cld::Shader::Unbind()

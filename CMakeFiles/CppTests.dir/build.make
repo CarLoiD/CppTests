@@ -167,18 +167,18 @@ CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.cpp -o CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s
 
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: CMakeFiles/CppTests.dir/flags.make
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o: Source/X11GLWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: CMakeFiles/CppTests.dir/flags.make
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/OpenGL/X11GLWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o -c /home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/X11GLWindow.cpp
 
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp > CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.i
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/X11GLWindow.cpp > CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.i
 
-CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/X11GLWindow.cpp -o CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.s
+CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/X11GLWindow.cpp -o CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.s
 
 # Object files for target CppTests
 CppTests_OBJECTS = \
@@ -189,7 +189,7 @@ CppTests_OBJECTS = \
 "CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o" \
 "CMakeFiles/CppTests.dir/Source/Main.cpp.o" \
 "CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o" \
-"CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o"
+"CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o"
 
 # External object files for target CppTests
 CppTests_EXTERNAL_OBJECTS =
@@ -201,7 +201,7 @@ CppTests: CMakeFiles/CppTests.dir/Source/Application/ThreadAsyncTaskApp.cpp.o
 CppTests: CMakeFiles/CppTests.dir/Source/Application/X11OpenGLWindowApp.cpp.o
 CppTests: CMakeFiles/CppTests.dir/Source/Main.cpp.o
 CppTests: CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o
-CppTests: CMakeFiles/CppTests.dir/Source/X11GLWindow.cpp.o
+CppTests: CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o
 CppTests: CMakeFiles/CppTests.dir/build.make
 CppTests: CMakeFiles/CppTests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carloid/Documents/CppProjects/CppTests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CppTests"

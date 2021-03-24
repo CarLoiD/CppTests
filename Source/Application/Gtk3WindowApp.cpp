@@ -29,5 +29,5 @@ void cld::Gtk3WindowApp::Execute(int argc, char* argv[])
     int32 ret = gtkApp->run(window);
     std::cout << "Exit with code " << ret << '\n';
 
-    ClearConsole();
+    cld::ClearConsole();
 }

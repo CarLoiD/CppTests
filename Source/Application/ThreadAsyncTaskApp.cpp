@@ -5,6 +5,6 @@
 
 void cld::ThreadAsyncTaskApp::Execute(int argc, char* argv[])
 {
-    HoldNextInput();
-    ClearConsole();
+    cld::HoldNextInput();
+    cld::ClearConsole();
 }
