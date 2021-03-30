@@ -17,7 +17,7 @@ namespace cld
         };
         
     public:
-        LinearLinkedList() = default;
+        LinearLinkedList();
         LinearLinkedList(const uint32 size);
         LinearLinkedList(const uint32 size, const T& data);
 

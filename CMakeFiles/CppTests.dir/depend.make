@@ -50,6 +50,11 @@ CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/OpenGL/Shader.cpp
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/OpenGL/Shader.hpp
 CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.o: Source/Types.hpp
 
+CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.o: Source/InlineUtils.hpp
+CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.o: Source/OpenGL/VertexAttributeLayout.cpp
+CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.o: Source/OpenGL/VertexAttributeLayout.hpp
+CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.o: Source/Types.hpp
+
 CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/InlineUtils.hpp
 CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/OpenGL/X11GLWindow.cpp
 CMakeFiles/CppTests.dir/Source/OpenGL/X11GLWindow.cpp.o: Source/OpenGL/X11GLWindow.hpp

@@ -332,6 +332,33 @@ Source/OpenGL/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/Shader.cpp.s
 .PHONY : Source/OpenGL/Shader.cpp.s
 
+Source/OpenGL/VertexAttributeLayout.o: Source/OpenGL/VertexAttributeLayout.cpp.o
+
+.PHONY : Source/OpenGL/VertexAttributeLayout.o
+
+# target to build an object file
+Source/OpenGL/VertexAttributeLayout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.o
+.PHONY : Source/OpenGL/VertexAttributeLayout.cpp.o
+
+Source/OpenGL/VertexAttributeLayout.i: Source/OpenGL/VertexAttributeLayout.cpp.i
+
+.PHONY : Source/OpenGL/VertexAttributeLayout.i
+
+# target to preprocess a source file
+Source/OpenGL/VertexAttributeLayout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.i
+.PHONY : Source/OpenGL/VertexAttributeLayout.cpp.i
+
+Source/OpenGL/VertexAttributeLayout.s: Source/OpenGL/VertexAttributeLayout.cpp.s
+
+.PHONY : Source/OpenGL/VertexAttributeLayout.s
+
+# target to generate assembly for a file
+Source/OpenGL/VertexAttributeLayout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTests.dir/build.make CMakeFiles/CppTests.dir/Source/OpenGL/VertexAttributeLayout.cpp.s
+.PHONY : Source/OpenGL/VertexAttributeLayout.cpp.s
+
 Source/OpenGL/X11GLWindow.o: Source/OpenGL/X11GLWindow.cpp.o
 
 .PHONY : Source/OpenGL/X11GLWindow.o
@@ -389,6 +416,9 @@ help:
 	@echo "... Source/OpenGL/Shader.o"
 	@echo "... Source/OpenGL/Shader.i"
 	@echo "... Source/OpenGL/Shader.s"
+	@echo "... Source/OpenGL/VertexAttributeLayout.o"
+	@echo "... Source/OpenGL/VertexAttributeLayout.i"
+	@echo "... Source/OpenGL/VertexAttributeLayout.s"
 	@echo "... Source/OpenGL/X11GLWindow.o"
 	@echo "... Source/OpenGL/X11GLWindow.i"
 	@echo "... Source/OpenGL/X11GLWindow.s"

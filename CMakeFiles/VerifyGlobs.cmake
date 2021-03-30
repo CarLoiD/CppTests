@@ -57,6 +57,7 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/*.cpp")
 set(OLD_GLOB
   "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.cpp"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/VertexAttributeLayout.cpp"
   "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/X11GLWindow.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -68,6 +69,7 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/*.hpp")
 set(OLD_GLOB
   "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/Shader.hpp"
+  "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/VertexAttributeLayout.hpp"
   "/home/carloid/Documents/CppProjects/CppTests/Source/OpenGL/X11GLWindow.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

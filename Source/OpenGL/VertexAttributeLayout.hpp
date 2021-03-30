@@ -1,8 +1,8 @@
 #ifndef VERTEX_ATTRIBUTE_LAYOUT_HPP
 #define VERTEX_ATTRIBUTE_LAYOUT_HPP
 
-#include "Types.hpp"
-#include "InlineUtils.hpp"
+#include "../Types.hpp"
+#include "../InlineUtils.hpp"
 
 namespace cld
 {

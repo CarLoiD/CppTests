@@ -2,6 +2,12 @@
 namespace cld
 {
     template <typename T>
+    LinearLinkedList<T>::LinearLinkedList()
+        : mHeadPtr(nullptr)
+        , mLenght(0)
+    {}
+
+    template <typename T>
     LinearLinkedList<T>::LinearLinkedList(const uint32 size)
         : mHeadPtr(nullptr)
         , mLenght(size)
